@@ -54,3 +54,7 @@ body {
 .content-box {
     background: rgba(255,255,255,0.5);
 }
+
+.contentspace {
+    padding-top: 20px;
+}
