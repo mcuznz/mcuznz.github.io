@@ -1,0 +1,56 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    color: #444;
+}
+
+.headspace {
+    background-color: #08273F;
+    background-image:
+        repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+        repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+        linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+        linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+    background-size: 70px 120px;
+}
+
+.headspace-inner {
+    padding: 15px 0;
+}
+
+.headspace h1 {
+    display: block;
+    margin: 0;
+    padding: 50px 0 0 0;
+    color: white;
+    text-shadow: 2px 4px 0px #08273F, 4px 8px 0px #666;
+    font-size: 72px;
+    font-family: 'Trochut', sans-serif;
+}
+
+.headspace h1 i {
+    font-size: 35px;
+    position: relative;
+    top: -10px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #96CBF2;
+    background-image:
+        repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+        repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+        linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+        linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+    background-size: 70px 120px;
+}
+
+.content-box {
+    background: rgba(255,255,255,0.5);
+}
